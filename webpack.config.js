@@ -32,7 +32,7 @@ module.exports = {
       name: 'mf-base', //-> nombre del proyecto
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': './src/app/pages/pages-routing.module.ts'
+        './Module': './src/app/pages/home/home.module.ts'
       },
       library: { type: 'module' },
       shared: share({
