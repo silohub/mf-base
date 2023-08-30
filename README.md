@@ -1,27 +1,52 @@
-# MfBase
+# Nombre del Proyecto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+Este proyecto está construido con Angular versión 15. Aquí encontrarás las instrucciones para configurar y ejecutar el proyecto en tu entorno local.
 
-## Development server
+## Requisitos Previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Node.js versión 16.18.0 o superior
+- Yarn (Opcional, pero recomendado para la gestión de dependencias)
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Sigue estos pasos para ejecutar el proyecto en tu máquina local.
 
-## Build
+### 1. Clonar el Repositorio
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Primero, descarga el código fuente del proyecto a tu máquina local utilizando `git clone` o descargando el archivo ZIP directamente desde el repositorio.
 
-## Running unit tests
+\`\`\`bash
+git clone [URL del repositorio]
+\`\`\`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 2. Navegar hasta el Directorio del Proyecto
 
-## Running end-to-end tests
+Una vez descargado el código, navega hasta la carpeta `mf-base` dentro del directorio del proyecto.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+\`\`\`bash
+cd [nombre-del-proyecto]/mf-base
+\`\`\`
 
-## Further help
+### 3. Instalar Dependencias
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Abre una terminal en la carpeta `mf-base` y ejecuta el siguiente comando para instalar todas las dependencias del proyecto.
+
+\`\`\`bash
+yarn
+\`\`\`
+
+Si prefieres usar npm, puedes ejecutar:
+
+\`\`\`bash
+npm install
+\`\`\`
+
+### 4. Iniciar el Proyecto
+
+Una vez que todas las dependencias se hayan instalado correctamente, inicia el servidor de desarrollo ejecutando el siguiente comando:
+
+\`\`\`bash
+ng serve -o
+\`\`\`
+
+Esto abrirá automáticamente una nueva pestaña en tu navegador web y navegará a `http://localhost:4200`. Deberías ver la palabra "HOME" en la pantalla, lo que indica que el proyecto se ha iniciado correctamente.

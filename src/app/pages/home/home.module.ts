@@ -4,8 +4,6 @@ import { HomeComponent } from './components/home/home.component';
 import { HOME_ROUTES } from './home.routes';
 import { RouterModule } from '@angular/router';
 
-
-
 @NgModule({
   declarations: [HomeComponent],
   imports: [
