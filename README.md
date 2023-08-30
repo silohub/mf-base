@@ -15,38 +15,38 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local.
 
 Primero, descarga el código fuente del proyecto a tu máquina local utilizando `git clone` o descargando el archivo ZIP directamente desde el repositorio.
 
-\`\`\`bash
+\```
 git clone [URL del repositorio]
-\`\`\`
+\```
 
 ### 2. Navegar hasta el Directorio del Proyecto
 
 Una vez descargado el código, navega hasta la carpeta `mf-base` dentro del directorio del proyecto.
 
-\`\`\`bash
+\```
 cd [nombre-del-proyecto]/mf-base
-\`\`\`
+\```
 
 ### 3. Instalar Dependencias
 
 Abre una terminal en la carpeta `mf-base` y ejecuta el siguiente comando para instalar todas las dependencias del proyecto.
 
-\`\`\`bash
+\```
 yarn
-\`\`\`
+\```
 
 Si prefieres usar npm, puedes ejecutar:
 
-\`\`\`bash
+\```
 npm install
-\`\`\`
+\```
 
 ### 4. Iniciar el Proyecto
 
 Una vez que todas las dependencias se hayan instalado correctamente, inicia el servidor de desarrollo ejecutando el siguiente comando:
 
-\`\`\`bash
+\```
 ng serve -o
-\`\`\`
+\```
 
 Esto abrirá automáticamente una nueva pestaña en tu navegador web y navegará a `http://localhost:4200`. Deberías ver la palabra "HOME" en la pantalla, lo que indica que el proyecto se ha iniciado correctamente.
