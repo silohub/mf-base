@@ -14,7 +14,7 @@ sharedMappings.register(path.join(__dirname, 'tsconfig.json'), [
 module.exports = {
   output: {
     publicPath: 'http://localhost:4200/', //->url donde se aloja el microfront
-    uniqueName: 'mf-base', //-> nombre del proyecto
+    uniqueName: 'mfBase', //-> nombre del proyecto
   },
   optimization: {
     runtimeChunk: false
@@ -29,22 +29,22 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'mf-base', //-> nombre del proyecto
-      filename: 'remoteEntry.js',
+      name: 'mfBase', //-> nombre del proyecto
+      filename: 'baseRemoteEntry.js',
       exposes: {
-        './Module': './src/app/pages/home/home.module.ts'
+        'HomeModule': './src/app/pages/home/home.module.ts'
       },
       library: { type: 'module' },
       shared: share({
         '@angular/core': {
           singleton: true,
           strictVersion: true,
-          requiredVersion: 'auto'
+          requiredVersion: '14.1.0'
         },
         '@angular/common': {
           singleton: true,
           strictVersion: true,
-          requiredVersion: 'auto'
+          requiredVersion: '14.1.0'
         },
         '@angular/common/http': {
           singleton: true,
@@ -54,7 +54,7 @@ module.exports = {
         '@angular/router': {
           singleton: true,
           strictVersion: true,
-          requiredVersion: 'auto'
+          requiredVersion: '14.1.0'
         },
         rxjs: {
           singleton: true,

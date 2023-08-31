@@ -8,7 +8,7 @@ import { HomeModule } from './home/home.module';
     CommonModule,
     HomeModule
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  // schemas: [CUSTOM_ELEMENTS_SCHEMA]
 
 })
 export class PagesModule {

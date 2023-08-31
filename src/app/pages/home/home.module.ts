@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule.forChild(HOME_ROUTES)
-
-  ]
+  ],
+  exports: [HomeComponent]
 })
 export class HomeModule { }
