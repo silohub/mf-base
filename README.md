@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# Microfront-Base
 
 Este proyecto está construido con Angular versión 15. Aquí encontrarás las instrucciones para configurar y ejecutar el proyecto en tu entorno local.
 
